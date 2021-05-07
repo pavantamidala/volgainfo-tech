@@ -9,9 +9,10 @@
     grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
 }
 .post-card{
-    border: 1px solid black;
+   
     margin: 8px;
     padding: 10px;
+    background-color: #91c788;
 }
 
 .posts{
@@ -19,6 +20,6 @@
     
 }
 .post-card:hover{
-     background-color: lightgrey;
+      background-color: #ddffbc;
     color:black
 }

@@ -19,7 +19,7 @@ function SinglePost() {
             <h1>Post Details</h1>
         {loading?<h1>Loading...</h1>:<div className="single-post">
           <h4 className="title"> {singlePost.title} </h4>
-                <span className="body"> {singlePost.body} </span>
+                <p className="body"> {singlePost.body} </p>
         </div>}
         </div>
     )

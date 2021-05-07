@@ -17,6 +17,7 @@
     margin-top: 6px;
     border: black 1px solid;
     padding: 18px;
+    background-color: #91c788;
 
 }
 h1{
@@ -25,4 +26,7 @@ h1{
 }
 .strongest{
     display: inline;
+}
+.single-post:hover{
+     background-color: #ddffbc;
 }
