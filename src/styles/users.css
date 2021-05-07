@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.user-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+}
+.user-card{
+    border: 1px solid black;
+    margin: 8px;
+    padding: 13px;
+}
+h2,h3,h4,h5,h6{
+    display: inline;
+}
+.btn{
+    width: 80px;
+    color: white;
+    background-color: gray;
+    border: 1px solid black;
+}
+.user-card:hover{
+    background-color: lightgrey;
+    color:black
+}

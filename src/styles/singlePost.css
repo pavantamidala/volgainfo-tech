@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.single{
+    width: 100vw;
+    height: 96vh;
+}
+.single-post{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 280px;
+    margin-top: 4vh;
+    margin-left: 40vw;
+    border: black 1px solid;
+    padding: 18px;
+
+}
+h1{
+    text-align: center;
+    
+}
+.strongest{
+    display: inline;
+}

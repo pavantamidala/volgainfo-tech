@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.posts-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+}
+.post-card{
+    border: 1px solid black;
+    margin: 8px;
+    padding: 10px;
+}
+
+.posts{
+    text-align: center;
+    
+}
+.post-card:hover{
+     background-color: lightgrey;
+    color:black
+}
